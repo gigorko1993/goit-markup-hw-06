@@ -732,6 +732,59 @@ body {
   outline: 0;
 }
 
+.backdrop .form-name {
+  margin-top: 40px;
+  margin-bottom: 12px;
+
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+}
+
+.backdrop .thumb {
+  margin-left: 40px;
+}
+
+.input-label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+}
+
+.input {
+  color: var(--primary-text-color);
+
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 42px;
+  padding-right: 11px;
+  min-width: 448px;
+
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+.input-thumb {
+  position: relative;
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+.input-thumb .icon {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+
+  width: 12px;
+  height: 12px;
+
+  fill: var(--primary-text-color);
+}
+
 /* portfolio */
 .portfolio {
   background-color: var(--bg-color-white);

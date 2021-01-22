@@ -406,28 +406,55 @@
     <div class="backdrop is-hidden" data-backdrop>
         <div class="modal">
             <form name="contact-form">
-                <p>Оставьте свои данные, мы вам перезвоним</p>
-                <label>
-                    Имя
-                    <input type="text" name="username"/>
-                </label>
-                <label>
-                    Телефон
-                    <input type="tel" name="userphone"/>
-                </label>
-                <label>
-                    Почта
-                    <input type="email" name="usermail"/>
-                </label>
-                <label>
-                    Комментарий
-                <textarea row="5" name="usercomment"></textarea>
-                </label>
-                <label>
-                    <input type="checkbox" name="agreement" value="agree"/>
-                    <div>Соглашаюсь с рассылкой и принимаю <a href="./index.html">Условия договора</a></div>
-                </label>
-                
+                <p class="form-name">Оставьте свои данные, мы вам перезвоним</p>
+                <div class="thumb">
+                    <label class="input-label">
+                        Имя
+                        <div class="input-thumb">
+                            <input type="text" name="username" class="input"/>
+                            <svg class="icon">
+                                <use href="./image/sprite.svg#icon-name"></use>
+                            </svg>
+                        </div>
+                    </label>
+                </div>
+                <div class="thumb">
+                    <label class="input-label">
+                        Телефон
+                        <div class="input-thumb">
+                        <input type="tel" name="userphone" class="input"/>
+                        <svg class="icon">
+                            <use href="./image/sprite.svg#icon-tel"></use>
+                        </svg>
+                        </div>
+                    </label>
+                </div>
+                <div class="thumb">
+                    <label class="input-label">
+                        Почта
+                        <div class="input-thumb">
+                            <input type="email" name="usermail" class="input"/>
+                            <svg class="icon">
+                                <use href="./image/sprite.svg#icon-email"></use>
+                            </svg>
+                        </div>
+                    </label>
+                </div>
+                <div class="thumb">
+                    <label class="input-label">
+                        Комментарий
+                    <div class="input-thumb">
+                    <textarea row="5" name="usercomment"></textarea>
+                    </div>
+                    </label>
+                    </label>
+                </div>
+                <div class="thumb">
+                    <label>
+                        <input type="checkbox" name="agreement" value="agree"/>
+                        <div>Соглашаюсь с рассылкой и принимаю <a href="./index.html">Условия договора</a></div>
+                    </label>
+                </div>
             </form>
             <button class="close-button" data-close-modal>&#10006</button>
         </div>
