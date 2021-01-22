@@ -412,7 +412,7 @@
                         Имя
                         <div class="input-thumb">
                             <input type="text" name="username" class="input"/>
-                            <svg class="icon">
+                            <svg class="icon" width="12px" height="12px">
                                 <use href="./image/sprite.svg#icon-name"></use>
                             </svg>
                         </div>
@@ -423,7 +423,7 @@
                         Телефон
                         <div class="input-thumb">
                         <input type="tel" name="userphone" class="input"/>
-                        <svg class="icon">
+                        <svg class="icon" width="13px" height="13px">
                             <use href="./image/sprite.svg#icon-tel"></use>
                         </svg>
                         </div>
@@ -434,26 +434,29 @@
                         Почта
                         <div class="input-thumb">
                             <input type="email" name="usermail" class="input"/>
-                            <svg class="icon">
+                            <svg class="icon" width="15px" height="12px">
                                 <use href="./image/sprite.svg#icon-email"></use>
                             </svg>
                         </div>
                     </label>
                 </div>
-                <div class="thumb">
+                <div class="thumb thumb-textarea">
                     <label class="input-label">
                         Комментарий
                     <div class="input-thumb">
-                    <textarea row="5" name="usercomment"></textarea>
+                    <textarea rows="5" name="usercomment" placeholder="Введите текст" class="input textarea"></textarea>
                     </div>
                     </label>
                     </label>
                 </div>
-                <div class="thumb">
-                    <label>
-                        <input type="checkbox" name="agreement" value="agree"/>
-                        <div>Соглашаюсь с рассылкой и принимаю <a href="./index.html">Условия договора</a></div>
+                <div class="thumb thumb-checkbox">
+                        <input type="checkbox" name="agreement" value="agree" id="checkbox" class="checkbox visually-hidden"/>
+                        <label class="checkbox-label" for="checkbox">
+                        Соглашаюсь с рассылкой и принимаю <a href="./index.html" class="link-checkbox">Условия договора</a>
                     </label>
+                </div>
+                <div class="thumb">
+                    <button type="submit" class="button-modal-form">Отправить</button>
                 </div>
             </form>
             <button class="close-button" data-close-modal>&#10006</button>
