@@ -853,7 +853,7 @@ body {
 .checkbox:checked ~ .checkbox-label::after {
   background-image: url("../image/tick.svg");
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: center;
   background-size: contain;
   border-color: transparent;
   background-color: var(--accent-color);
