@@ -840,6 +840,7 @@ body {
 
 .link-checkbox {
   color: var(--accent-color);
+  text-decoration-skip-ink: none;
 }
 
 .checkbox-label::after {
