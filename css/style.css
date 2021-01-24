@@ -650,7 +650,13 @@ body {
   color: var(--white-text-color);
 }
 
-.footer-form .form-button {
+.footer-form-thumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-form .form-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -672,7 +678,7 @@ body {
   border: 0px transparent;
 }
 
-.form-button::after {
+.form-btn::after {
   content: "";
   width: 24px;
   height: 24px;
